@@ -100,7 +100,7 @@ chromadb = "^0.4.24"
 posthog = "^3.0.2"
 rich = "^13.7.0"
 beautifulsoup4 = "^4.12.2"
-pypdf = "^4.0.1"
+pypdf = ">=4.0.1,<7.0.0"
 gptcache = "^0.1.43"
 pysbd = "^0.3.4"
 tiktoken = { version = "^0.7.0", optional = true }
@@ -114,7 +114,7 @@ gpt4all = { version = "2.0.2", optional = true }
 # 1.0.9 is not working for some users (https://github.com/nomic-ai/gpt4all/issues/1394)
 opensearch-py = { version = "2.3.1", optional = true }
 elasticsearch = { version = "^8.9.0", optional = true }
-flask = { version = "^2.3.3", optional = true }
+flask = { version = ">=2.3.3,<4.0.0", optional = true }
 twilio = { version = "^8.5.0", optional = true }
 fastapi-poe = { version = "0.0.16", optional = true }
 discord = { version = "^2.3.2", optional = true }
